@@ -10,13 +10,7 @@ CAUTION
 ============
 
 We have a big change on version 0.14.0.
-So, please test on trunk repository.
-
-v0.14 release schedule
-=======================
-
-Now, under testing.
-v0.14 will be released on May 15.
+So, please test carefully.
 
 
 License
@@ -149,11 +143,20 @@ example::
 ChangeLog
 ============
 
+- v0.15.0
+
+  - fixed exception when send a large message (#84)
+
+- v0.14.1
+
+  - fixed to work on Python2.6 (#83)
+
 - v0.14.0
 
   - Support python 3(#73)
   - Support IPv6(#77)
   - Support explicit web proxy(#57)
+  - specify cookie in connect method option(#82)
 
 - v0.13.0
 
